@@ -1,27 +1,69 @@
 body {
-
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
 }
 
 * {
 	box-sizing: border-box;
 }
 
+h1 {
+	font-size: 50px;
+}
 
 .container {
+	
+	padding: 40px;
 	display: flex;
 	justify-content: center;
-	align-item: center;
+	align-items: center;
 }
 
 .box {
-	background-color: blue;
+	background-color: blueviolet;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	border-top: 3px double black;
+	border-left: 3px double black;
 }
 
 .boxMath {
+	background-color: grey;
+	width: 150px;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	border-top: 3px double black;
+	border-left: 3px double black;
 }
 
 #cl {
+	width: 300px;
+	background-color: cyan;
 }
 
 #mathEqual {
+	height: 300px;
+}
+
+.numberBoard {
+	width: 450px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mathBoard {
+	width: 150px;
+	display: flex;
+	flex-direction: column;
 }
