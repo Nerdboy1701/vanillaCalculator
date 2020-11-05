@@ -9,21 +9,19 @@ body {
 
 .container {
 	display: flex;
+	justify-content: center;
+	align-item: center;
 }
 
 .box {
-	padding: 50px;
 	background-color: blue;
 }
 
 .boxMath {
-	padding: 50px 25px;
 }
 
 #cl {
-	padding: 100px 50px;
 }
 
 #mathEqual {
-	padding: 50px 100px;
 }
