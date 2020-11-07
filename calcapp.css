@@ -10,12 +10,18 @@ body {
 }
 
 h1 {
-	font-size: 50px;
+	padding: 30px;
+	font-size: 2em;
 	text-align: center;
 }
 
+.mainCalc {
+	background-color: grey;
+	width: 800px;
+	margin: auto;
+}
+
 .container {
-	
 	padding: 40px;
 	display: flex;
 	justify-content: center;
@@ -46,6 +52,21 @@ h1 {
 	border-bottom: 3px solid black;
 	border-top: 3px double black;
 	border-left: 3px double black;
+}
+
+#displayBox {
+	width: 600px;
+	padding: 40px;
+	margin: auto;
+	text-align: center;
+	font-family: monospace;
+	font-size: 3em;
+	background-color: black;
+	color: white;
+	border-right: 5px solid white;
+	border-bottom: 5px solid white;
+	border-top: 3px double white;
+	border-left: 3px double white;
 }
 
 #cl {
