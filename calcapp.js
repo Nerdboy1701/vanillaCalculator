@@ -9,7 +9,7 @@ let displayNum;
 // when numbers get pressed. This will most likely go in a function. 
 displayNum = (displayNum * 10) + numPress;
  
-// didplayed number being held until calculation gets made 
+// displayed number being held until calculation gets made 
 let numHold;
 
 displayBox.innerText = `54321`;
